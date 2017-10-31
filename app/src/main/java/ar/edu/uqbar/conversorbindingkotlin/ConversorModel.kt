@@ -13,7 +13,7 @@ class ConversorModel : BaseObservable() {
 
     fun convertir() {
         conversor.convertir()
-        notifyPropertyChanged(BR.conversor)
+        notifyPropertyChanged(BR.kilometros)
     }
 
     var millas: String

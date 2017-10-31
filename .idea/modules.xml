@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConversorBindingKotlin.iml" filepath="$PROJECT_DIR$/ConversorBindingKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eg-conversor-binding-kotlin.iml" filepath="$PROJECT_DIR$/eg-conversor-binding-kotlin.iml" />
     </modules>
   </component>
 </project>
