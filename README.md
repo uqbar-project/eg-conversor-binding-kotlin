@@ -23,9 +23,3 @@ Este proyecto está generado para
 * **El modelo de la vista**: es un Conversor que maneja el binding con los controles millas (EditText) y kilómetros (TextView), ambos Strings
 * **El modelo de dominio**: es un Conversor que sabe pasar de millas a kilómetros
 
-
-## Testing
-
-* en la carpeta test encontrarás [un archivo de testeo unitario del conversor](app/src/test/java/ar/edu/uqbar/conversorappkot/ConversorUnitTest.kt)
-* y un [test de integración básico](app/src/androidTest/java/ar/edu/uqbar/conversorappkot/ExampleInstrumentedTest.java)
-
