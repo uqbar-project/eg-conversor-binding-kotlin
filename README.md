@@ -20,9 +20,9 @@ Este proyecto está generado para
 
 * **La vista**: está definida en un .xml
 * **El controller**: es el ConversorActivity
-* **El modelo**: es un Conversor definido como Java Bean
+* **El modelo de la vista**: es un Conversor que maneja el binding con los controles millas (EditText) y kilómetros (TextView), ambos Strings
+* **El modelo de dominio**: es un Conversor que sabe pasar de millas a kilómetros
 
-No tenemos binding, así que el controller debe manualmente convertir los valores de la vista hacia el controller y viceversa, lo que incluye el manejo de errores.
 
 ## Testing
 
