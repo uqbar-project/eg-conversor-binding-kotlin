@@ -9,12 +9,12 @@ El [enunciado](http://algo3.uqbar-project.org/material/ejemplos/dominios/convers
 ## El proyecto
 Este proyecto está generado para
 
-* Android Studio 3.0.0 (Septiembre 2017)
-* con Gradle 3.0.0 (el que viene con Android Studio)
-* para una SDK 26 (Oreo)
+* Android Studio 3.2.1 (Noviembre 2018)
+* con Gradle 3.2.1 (el que viene con Android Studio)
+* para una SDK 28 (Pie)
 * en Kotlin (hay que descargarlo siguiendo [estos pasos](https://kotlinlang.org/docs/tutorials/kotlin-android.html))
 * aprovechamos las [Kotlin Android Extensions](https://antonioleiva.com/kotlin-android-extensions/)
-* y tiene como agregado el DataBinding (configurado en el build.gradle de la app)
+* y tiene como agregado el DataBinding (que antes se configuraba como dependencia `kapt` en el build.gradle de la app y [a partir de las versiones nuevas de Android Studio ya no es necesario](https://stackoverflow.com/questions/50594507/cannot-find-symbol-databindingcomponent-on-android-studio-3-2-canary-16-kotlin-p))
 
 ## La arquitectura MVC
 
