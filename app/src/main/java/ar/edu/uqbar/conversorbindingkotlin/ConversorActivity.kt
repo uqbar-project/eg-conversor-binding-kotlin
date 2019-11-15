@@ -1,8 +1,8 @@
 package ar.edu.uqbar.conversorbindingkotlin
 
+import android.app.Activity
 import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import ar.edu.uqbar.conversorbindingkotlin.databinding.ActivityConversorBinding
 import android.databinding.BaseObservable
 import android.databinding.Bindable
@@ -65,7 +65,7 @@ class ConversorModel : BaseObservable() {
  * Created by fernando on 10/26/17.
  */
 
-class ConversorActivity : AppCompatActivity() {
+class ConversorActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
